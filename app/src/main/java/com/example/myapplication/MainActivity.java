@@ -48,7 +48,6 @@ public class MainActivity extends AppCompatActivity{
                 Intent intent = new Intent(MainActivity.this, ViewImage.class);
                 intent.putExtra("imagePath", path);
                 startActivity(intent);
-
             }
         });
         recyclerView.setAdapter(galleryAdapter);
